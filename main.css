@@ -1,0 +1,81 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+
+.navbar{
+    background-color: #1b1a1a;
+}
+
+
+#cabecalho .nav .nav-link.active,
+.btn-primary  {
+    background-color: #eb700c;
+    color: #fffcfc;
+    border: none;
+}
+
+#cabecalho .nav .nav-link.active:hover,
+.btn-primary:hover {
+    background-color: #fffcfc;
+    color: #eb700c;
+    border: none;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #eb700c;
+}
+
+.navbar-toggler {
+    background-color: #eb700c;
+}
+
+#precos{
+    background-color: #f389323f;
+}
+
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#sobre-o-restaurante,
+#cardapio{
+    background-color: #ffeae6 ;
+}
+
+.text-colored{
+    color: #eb700c;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #eb700c;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #eb700c;
+}
+
+.social-links li{
+    list-style: none; /*para retirar os balits dos icones */
+    display: inline; /*para ficar uma ao lado do outro */
+}
+
+.social-links a{
+    text-decoration: none; /*para remover o _ entre os icones */
+}
+
+@media (max-width: 767px) {  /*para ajustar o tamanho da imagem do carosel no celular*/
+    .carousel-item img{
+        height: 280px; /*limitou a altura da imagem em 280px*/
+    }
+}
+
+
+
+
